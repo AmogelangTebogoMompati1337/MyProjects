@@ -1,0 +1,87 @@
+h1{
+    font-family:cursive;
+    text-align: center;
+}
+body{
+    margin: 0px;
+    background: blueviolet;
+}
+.navbar ul{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    color:yellow;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.navbar a{
+    float: left;
+}
+
+main h2{
+    font-family: cursive;
+    text-align: center;
+}
+main p{
+    font-family: cursive;
+}
+main{
+    background: blueviolet;
+}
+
+ /* Business Hours */
+        .hours-section {
+            margin-top: 3rem;
+            background:brown;
+            padding: 2rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color:white;
+            font-family: cursive;
+        }
+
+        .hours-section h2 {
+            color: #feca57;
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .hours-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .hours-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .hours-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .hours-item .day {
+            font-weight: 600;
+            color: #feca57;
+        }
+
+        .hours-item .time {
+            opacity: 0.9;
+        }
